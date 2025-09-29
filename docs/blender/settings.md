@@ -1,0 +1,1 @@
+![Alt text for accessibility](images/blender_settings.png)

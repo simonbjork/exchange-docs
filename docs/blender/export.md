@@ -1,0 +1,1 @@
+![Export from Blender](images/blender_example.gif)

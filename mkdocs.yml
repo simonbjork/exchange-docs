@@ -1,1 +1,43 @@
-site_name: My Docs
+site_name: Exchange docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home:
+      - Overview: index.md
+  - Nuke:
+      - Overview: nuke/index.md
+      - Installation: nuke/installation.md
+      - Nodes: nuke/nodes.md
+      - Usage: nuke/usage.md
+      - Setup: nuke/setup.md
+      - Export: nuke/export.md
+      - Import: nuke/import.md
+      - Settings: nuke/settings.md
+      - Limitations: nuke/info.md
+  - Blender:
+      - Overview: blender/index.md
+      - Installation: blender/installation.md
+      - Usage: blender/usage.md
+      - Setup: blender/setup.md
+      - Export: blender/export.md
+      - Import: blender/import.md
+      - Settings: blender/settings.md
+      - Limitations: blender/info.md
