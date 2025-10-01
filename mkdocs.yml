@@ -22,6 +22,7 @@ theme:
 nav:
   - Home:
       - Overview: index.md
+      - Workflow: workflow.md
   - Nuke:
       - Overview: nuke/index.md
       - Installation: nuke/installation.md
@@ -31,13 +32,16 @@ nav:
       - Export: nuke/export.md
       - Import: nuke/import.md
       - Settings: nuke/settings.md
+      - Environment variables: nuke/envs.md
       - Limitations: nuke/info.md
   - Blender:
       - Overview: blender/index.md
       - Installation: blender/installation.md
       - Usage: blender/usage.md
+      - Supported: blender/supported.md
       - Setup: blender/setup.md
       - Export: blender/export.md
       - Import: blender/import.md
       - Settings: blender/settings.md
+      - Environment variables: blender/envs.md
       - Limitations: blender/info.md
