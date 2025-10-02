@@ -1,3 +1,7 @@
 # My New Page
 
-This is the content of my new page BLENDERR
+The Exchange blender plugin allows for a copy paste workflow between other apps (or directly in Blender itself).
+
+As many properties as possible is animated if possible.
+
+Show some gifs.

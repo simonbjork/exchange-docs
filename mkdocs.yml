@@ -28,10 +28,11 @@ nav:
       - Installation: nuke/installation.md
       - Nodes: nuke/nodes.md
       - Usage: nuke/usage.md
-      - Setup: nuke/setup.md
+      - Setup scene: nuke/setup.md
       - Export: nuke/export.md
       - Import: nuke/import.md
       - Settings: nuke/settings.md
+      - Examples: nuke/examples.md
       - Environment variables: nuke/envs.md
       - Limitations: nuke/info.md
   - Blender:
@@ -39,9 +40,10 @@ nav:
       - Installation: blender/installation.md
       - Usage: blender/usage.md
       - Supported: blender/supported.md
-      - Setup: blender/setup.md
+      - Setup scene: blender/setup.md
       - Export: blender/export.md
       - Import: blender/import.md
       - Settings: blender/settings.md
+      - Examples: blender/examples.md
       - Environment variables: blender/envs.md
       - Limitations: blender/info.md
