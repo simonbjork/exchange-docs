@@ -1,7 +1,6 @@
 
-###################################################################################################
-Installation
-###################################################################################################
+
+
 1. Copy the directory ExchangeNuke to the user's .nuke directory.
 2. Add the following to the init.py file in the same directory:
    import nuke

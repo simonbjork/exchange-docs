@@ -1,7 +1,6 @@
 
-###################################################################################################
 Installation
-###################################################################################################
+
 
 1. Open Blender and go to Edit/Preferences/Add-ons and click the install button. Browse for the ExchangeBlender.zip file.
 
