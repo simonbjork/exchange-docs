@@ -28,9 +28,6 @@ nav:
       - Installation: nuke/installation.md
       - Nodes: nuke/nodes.md
       - Usage: nuke/usage.md
-      - Setup scene: nuke/setup.md
-      - Export: nuke/export.md
-      - Import: nuke/import.md
       - Settings: nuke/settings.md
       - Examples: nuke/examples.md
       - Environment variables: nuke/envs.md

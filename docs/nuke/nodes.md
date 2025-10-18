@@ -1,7 +1,7 @@
 
 
 # 3D nodes (legacy)
-   Object         | Import | Export |
+   Node         | Import | Export |
  |----------------|--------|--------|
  | Camera         | ✓      | ✓      |
  | Axis           | ✓      | ✓      |
@@ -19,7 +19,7 @@
   | Mesh vertex         | ✓      | ✓      |
 
 # 3D nodes (new)
- | Object            | Import | Export |
+ | Node            | Import | Export |
  |-------------------|--------|--------|
  | Camera            | ✓      | ✓      |
  | GeoCard           | ✓      | ✓      |
@@ -38,7 +38,7 @@
   | Mesh vertex         | ✓      | ✓      |
 
 # Read nodes
- | Object     | Import | Export |
+ | Node     | Import | Export |
  |------------|--------|--------|
  | Read       | ✓      | ✓      |
  | Write      | -      | ✓      |
@@ -46,14 +46,14 @@
  | DeepWrite  | -      | ✓      |
 
 # 2D nodes
- | Object      | Import | Export |
+ | Node      | Import | Export |
  |-------------|--------|--------|
  | Transform   | ✓      | ✓      |
- | Tracker4    | ✓  (?)    | ✓      |
+ | Tracker4    | ✓      | ✓      |
  | CornerPin2D | ✓      | ✓      |
 
-# 2D nodes from 3D
-   Object     | Import |
+# 2D nodes from 3D export
+   Node     | Import |
  |------------|--------|
  | RotoPaint  | ✓      |
  | Tracker    | ✓      |
@@ -61,3 +61,11 @@
  | GridWarp   | ✓      |
  | SplineWarp | ✓      |
  | CornerPin  | ✓      |
+
+
+### Script
+ | Knob                     | Import | Export          |
+ |----------------------------|--------|-----------------|
+ | Width/Height/Pixel Aspect  | ✓      | ✓               |
+ | Frame range                | ✓      | ✓               |
+ | Fps                        | ✓      | ✓               |

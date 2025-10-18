@@ -4,32 +4,12 @@
 ![Alt text for accessibility](images/nuke_settings.png)
 
 
-## Generate class overrides file
-It's possible to override the node classes for created nodes.
-
-For example a Camera node is by default created (imported) as a "Camera2" (to keep backwards compatibility), but by exporting an overrides file a different class can be used instead (i.e Camera3).
-
-Overrides are available for all supported 3D nodes and it's possible to have different defaults for the legacy and the new 3D system.
-
-The file is called "_bv_exchange_class_overrides.json" and is saved in the users ".nuke" directory.
-
-*Make sure to keep the formatting of the json file intact (keeping quotes/commas).
-
----
-
-## Light Intensity
-Specify values to multiply light intensity for export/import. Default at 1.
-
----
-
-
-
 ## Export scale
 Export scale for 3D objects.
 
 It's recommended to keep this value at 1 and assume 1 Nuke unit = 1 meter.
 
-Note that ReadGeo nodes are not scaled.
+Note that ReadGeo/GeoImport nodes are not scaled.
 
 ---
 
@@ -38,7 +18,7 @@ Import scale for 3D objects.
 
 It's recommended to keep this value at 1 and assume 1 Nuke unit = 1 meter.
 
-Note that ReadGeo nodes are not scaled.
+Note that ReadGeo/GeoImport nodes are not scaled.
 
 ---
 
@@ -223,3 +203,21 @@ If multiple paths are set (separated by semi-colon), the first existing path wil
 Support for environment variables using $<name> syntax (i.e path/to/$PROJ/$SHOT).
 
 Note that you can override the regular export with the EXCHANGE_JSON_PATH environment variable as well.
+
+## Generate class overrides file
+It's possible to override the node classes for created nodes.
+
+For example a Camera node is by default created (imported) as a "Camera2" (to keep backwards compatibility), but by exporting an overrides file a different class can be used instead (i.e Camera3).
+
+Overrides are available for all supported 3D nodes and it's possible to have different defaults for the legacy and the new 3D system.
+
+The file is called "_bv_exchange_class_overrides.json" and is saved in the users ".nuke" directory. The path can be overriden with EX_NUKE_OVERRIDES_PATH environment variable.
+
+*Make sure to keep the formatting of the json file intact (keeping quotes/commas).
+
+---
+
+## Light Intensity
+Specify values to multiply light intensity for export/import. Default at 1.
+
+---
