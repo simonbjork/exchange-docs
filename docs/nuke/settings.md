@@ -1,8 +1,9 @@
 # Settings and Tooltips
 
 
-![Alt text for accessibility](images/nuke_settings.png)
-
+<a href="../images/nuke_settings.png" target="_blank">
+  <img src="../images/nuke_settings.png" alt="Beskrivning av GIF" style="max-width:100%; height:auto;" />
+</a>
 
 ## Export scale
 Export scale for 3D objects.

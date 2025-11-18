@@ -23,10 +23,11 @@ nav:
   - Home:
       - Overview: index.md
       - Workflow: workflow.md
+      - Examples: examples.md
   - Nuke:
       - Overview: nuke/index.md
       - Installation: nuke/installation.md
-      - Nodes: nuke/nodes.md
+      - Supported: nuke/supported.md
       - Usage: nuke/usage.md
       - Settings: nuke/settings.md
       - Examples: nuke/examples.md

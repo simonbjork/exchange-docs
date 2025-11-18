@@ -3,7 +3,7 @@ Download the `ExchangeNuke.zip` file and extract it.
 
 **Basic Installation:**
 
-Copy the `ExchangeNuke` directory to your `~/.nuke` folder.
+Copy the `ExchangeNuke` directory to your `<user home>/.nuke` folder.
 
 In the `.nuke` directory, edit or create an `init.py` file and add:
 
@@ -20,7 +20,7 @@ Restart Nuke. The "ex" icon will appear in the nodes toolbar.
 
 For better organization, set up a global plugins directory. In this example we will use `D:/tools/nuke`, but it could also be on a server or shared Dropbox directory.
 
-Create a `python` subdirectory and copy `ExchangeNuke` into it.
+Create a `python` subdirectory and copy the `ExchangeNuke` folder into it.
 
 In `D:/tools/nuke`, create an `init.py` file with:
 ```

@@ -12,8 +12,7 @@ With the Exchange Toolkit, you can **seamlessly transfer** cameras, 3D objects, 
 
 
 
-Each version is made to work standalone, i.e you can buy the After Effects version and the Nuke implementation, and then later you can get the Blender implementation and it will work with all apps. 
-
+Each version is made to work standalone, i.e you can buy the After Effects version and the Nuke implementation, and then later you can get the Blender implementation and it will work with all apps.
 
 Availible to buy at gumroad and blender market.
 
