@@ -35,7 +35,13 @@
  | GeoImport         | ✓      | ✓      |
  | GeoReference      | ✓      | ✓      |
  | GeoExport         | -      | ✓      |
+ | GeoXForm          | -      | ✓ (as locator)      |
+ | GeoConstrain       | -      | ✓ (as locator*)      |
   | Mesh vertex         | ✓      | ✓      |
+
+* GeoConstrain only supports export if source and target are single prims.
+
+
 
 # Read nodes
  | Node     | Import | Export |
